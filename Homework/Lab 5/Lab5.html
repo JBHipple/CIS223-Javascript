@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<!--
+	CIS 223 Lab Assignment #5
+	Lab5.html
+	Joshua Hipple
+	-->
+	<title>CIS 223 Lab Assignment #5</title>
+</head>
+<body>
+	<h1>Chinese Food Take Out</h1>
+	<form>
+		<fieldset style="display: inline-block" id="entrees">
+			<legend><h2>Choose one of the following:</h2></legend>
+			<input type="radio" name="entree" id="Kid $4.99" value="4.99" />
+			<label for="kid">Kid $4.99</label>
+			<input type="radio" name="entree" id="Two Entree $5.99" value="5.99" />
+			<label for="twoEntree">Two Entree $5.99</label>
+			<input type="radio" name="entree" id="Three Entree $7.99" value="7.99" />
+			<label for="threeEntree">Three Entree $7.99</label>
+			<input type="radio" name="entree" id="Bowl $5.99" value="5.59" />
+			<label for="bowl">Bowl $5.59</label>
+		</fieldset><br>
+		<fieldset style="display: inline-block" id="sides">
+			<legend><h2>Add any of the following:</h2></legend>
+			<input type="checkbox" name="side" id="Egg Roll $1.90" value="1.90" />
+			<label for="eggroll">Egg Roll $1.90</label><br>
+			<input type="checkbox" name="side" id="Soda $1.00" value="1.00" />
+			<label for="soda">Soda $1.00</label><br>
+			<input type="checkbox" name="side" id="Cream Cheese Rangoon $1.70" value="1.70" />
+			<label for="rangoon">Cream Cheese Rangoon $1.70</label><br>
+			<input type="checkbox" name="side" id="Chicken Potsticker $1.20" value="1.20" />
+			<label for="potsticker">Chicken Potsticker $1.20</label><br>
+			<input type="checkbox" name="side" id="Soup $2.00" value="2.00" />
+			<label for="soup">Soup $2.00</label><br>
+		</fieldset><br>
+		<h2>Click the Submit button to see the Total Charge</h2>
+		<input type="button" id="submitbutton" value="Submit" />
+	</form>
+	<script src="Lab5.js"></script>
+</body>
+</html>

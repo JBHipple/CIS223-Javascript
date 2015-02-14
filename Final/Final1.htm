@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		CIS 223 - W1
+		Joshua Hipple
+		Final Project - Part 1
+		
+		Filename: Final1.htm
+	-->
+	<title>Final Exam #1</title>
+</head>
+
+<body>
+	<form id="theform">
+	<fieldset id="contact">
+		<h3>Please fill in the following form:</h3>
+		<div>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname">
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname">
+		</div>
+		<label for="email">E-Mail:</label>
+		<input type="text" id="email">
+	</fieldset>
+	<fieldset id="sports">
+		<h3>My Favorite sports are:</h3>
+		<div>
+			<input type="checkbox" id="golf" value="Golf">
+			<label for="golf">Golf</label>
+			<input type="checkbox" id="basketball" value="Basketball">
+			<label for="basketball">Basketball</label>
+			<input type="checkbox" id="tennis" value="Tennis">
+			<label for="tennis">Tennis</label>
+			<input type="checkbox" id="othersport" value="Others">
+			<label for="othersport">Others</label>
+		</div>
+	</fieldset>
+	<fieldset id="colors">
+		<h3>My Favorite color is:</h3>
+		<div>
+			<input type="radio" id="blue" value="Blue" name="color">
+			<label for="blue">Blue</label>
+			<input type="radio" id="Red" value="Red" name="color">
+			<label for="red">Red</label>
+			<input type="radio" id="green" value="Green" name="color">
+			<label for="green">Green</label>
+			<input type="radio" id="othercolor" value="Others" name="color">
+			<label for="othercolor">Others</label>
+		</div>
+	</fieldset>
+	<fieldset id="search">
+		<div>
+			<h3>My Favorite search engine:</h3>
+			<select id="searchengine">
+				<option value="Yahoo">Yahoo!</option>
+				<option value="Alta-Vista">Alta-Vista</option>
+				<option value="Lycos">Lycos</option>
+				<option value="Ask Jeeves">Ask Jeeves</option>
+				<option value="Other">Other</option>
+			</select>
+		</div>
+	</fieldset>
+	<div id="buttondiv">
+		<input type="button" value="Submit" id="submitbutton">
+	</div>
+	</form>
+	<script src="Final1.js"></script>
+</body>
+</html>

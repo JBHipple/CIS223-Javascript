@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		CIS 223 - W1
+		Joshua Hipple
+		Final Project - Part 2
+		
+		Filename: Final2.htm
+	-->
+	<title>Final Exam #2</title>
+</head>
+<body>
+	<h1>Final Exam #2</h1>
+	<form id="theform">
+		<fieldset id="paymentinfo">
+			<legend>Payment Information</legend>
+			<label for="ccnumber">Card #</label>
+			<input type="text" id="ccnumber">
+			<div id="errortext" style="display:none">
+				<font color="red"><strong>Credit card number is invalid!</strong></font>
+			</div>
+			<div id="cardselections">
+				<input type="radio" name="cardtypes" id="visa" value="Visa">
+				<label for="visa">Visa</label>
+				<input type="radio" name="cardtypes" id="mastercard" value="Master Card">
+				<label for="mastercard">Master Card</label>
+				<input type="radio" name="cardtypes" id="discover" value="Discover">
+				<label for="discover">Discover</label>
+				<input type="radio" name="cardtypes" id="amex" value="American Express">
+				<label for="amex">American Express</label>
+			</div>
+			<div>
+				<label>Expiration</label>
+				<div class="inline" id="exp">
+					<label for="expMo">Month</label>
+					<select id="expMo" name="ExpMonth">
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					<label for="expYr">Year</label>
+					<select id="expYr" name="ExpYear">
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+					</select>
+				</div>		
+			</div>
+		</fieldset>
+		<input type="button" value="Submit" id="submitbutton">
+	</form>
+	<script src="Final2.js"></script>
+</body>
+</html>
